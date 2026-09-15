@@ -1,0 +1,61 @@
+site_name: Teoría de Proyectos
+site_description: Material didáctico de Teoría de Proyectos
+
+theme:
+  name: material
+  language: es
+
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Inicio: index.md
+
+  - Unidad 1. Teoría de proyectos:
+      - ud01/index.md
+      - Objetivos SMART: ud01/objetivos-smart.md
+      - Diagrama de Gantt: ud01/diagrama-gantt.md
+
+  - Unidad 2. Herramientas de comunicación, colaborativas y búsqueda de información:
+      - ud02/index.md
+      - 2.1 Herramientas de comunicación: ud02/21-herramientas-comunicacion.md
+      - 2.2 Herramientas colaborativas: ud02/22-herramientas-colaborativas.md
+      - Práctica. Documentos colaborativos: ud02/practica-documentos-colaborativos.md
+      - Práctica. Presentación inicial: ud02/practica-presentacion-inicial.md
+      - Práctica. Conoce a tu equipo: ud02/practica-conoce-equipo.md
+      - Práctica. Análisis de la competencia: ud02/practica-analisis-competencia.md
+      - Compartir archivos, índice y bibliografía APA 7: ud02/archivos-indice-bibliografia.md
+
+  - Unidad 3. Metodología ágil:
+      - ud03/index.md
+      - Scrum y otras metodologías ágiles: ud03/scrum-y-otros.md
+
+  - Unidad 4. Documentación:
+      - ud04/index.md
+      - Inicio de la memoria del proyecto: ud04/inicio-memoria.md
+      - Continuación de la memoria: ud04/continuacion-memoria.md
+      - Continuación 2 de la memoria: ud04/continuacion-2-memoria.md
+
+  - Unidad 5. Presentación del proyecto:
+      - ud05/index.md
+      - Revisión final, entrega y presentación: ud05/revision-final.md
